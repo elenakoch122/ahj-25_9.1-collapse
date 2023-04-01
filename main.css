@@ -1,0 +1,46 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 50px;
+}
+
+.collapse {
+  width: 50vw;
+  padding: 16px;
+  border: 1px solid #ddd;
+}
+
+.collapse__button {
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: cornflowerblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.collapse__button:hover {
+  background-color: #92b5f2;
+}
+
+.collapse__content {
+  overflow: hidden;
+  transition: height 1s linear 0s;
+}
+
+.content_opened {
+  height: 100px;
+}
+
+.content_closed {
+  height: 0;
+}
+
+
+/*# sourceMappingURL=main.css.map*/
