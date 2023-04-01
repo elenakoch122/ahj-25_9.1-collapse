@@ -29,42 +29,15 @@ body {
   background-color: #92b5f2;
 }
 
-/* .collapse__content-wrapper {
-  overflow: hidden;
-} */
-
 .collapse__content {
-  /* display: none; */
   overflow: hidden;
+  transition: height 1s linear 0s;
+}
+
+.content_opened {
+  height: 100px;
+}
+
+.content_closed {
   height: 0;
-}
-
-.collapse__button:hover+.collapse__content {
-  /* animation: collapse 2s ease 0s 1 normal none; */
-  /* animation-duration: 2s; */
-  /* animation-timing-function: ease; */
-  /* animation-delay: 0s; */
-  /* animation-iteration-count: 1; */
-  /* animation-direction: normal; */
-  /* animation-fill-mode: none; */
-  /* animation-play-state: running; */
-  /* animation-name: collapse; */
-  animation-name: collapse;
-  animation-duration: 1s;
-  /* animation-iteration-count: 1; */
-  animation-fill-mode: forwards;
-  animation-timing-function: linear;
-  /* animation-direction: alternate; */
-}
-
-@keyframes collapse {
-  from {
-    /* display: none; */
-    height: 0;
-  }
-
-  to {
-    /* display: block; */
-    height: 100px;
-  }
 }
