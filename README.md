@@ -2,7 +2,7 @@
 
 [![Build status](https://ci.appveyor.com/api/projects/status/ra5um6xvbf75e822?svg=true)](https://ci.appveyor.com/project/elenakoch122/ahj-25-9-1-collapse)
 
-GitHub Pages:
+GitHub Pages:  https://elenakoch122.github.io/ahj-25_9.1-collapse/
 
 Правила сдачи задания:
 
